@@ -1,0 +1,16 @@
+@media (max-width: 400px){
+grid-template-areas:
+        'h h h'
+        'n n n'
+        'f f f'
+        ;
+}
+
+@media (min-width: 400px){
+grid-template-areas:
+        'h h h'
+        'n n n'
+        'f f f'
+        ;
+}
+

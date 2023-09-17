@@ -1,0 +1,72 @@
+.center-horizontal {
+    text-align: center;
+    display: block
+}
+
+.download-block {
+    text-align: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.inline-row {
+    display: inline-block;
+    color: rebeccapurple;
+    border: 1px solid black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.block_view {
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+    grid-template-areas:
+    "logo navigation account";
+    border: 1px solid black;
+}
+
+.empty_line{
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+    grid-template-areas:
+    "logo navigation account";
+    margin: 12px;
+}
+
+.logo {
+    grid-area: logo; /* Assign the logo to the "logo" grid area */
+    background-image: url('logo.png'); /* Set the background image */
+    background-size: cover; /* Adjust the background size as needed */
+    width: 100px; /* Set the width and height for your logo */
+    height: 100px;
+}
+
+.navigation{
+    text-align: -webkit-center;
+    margin: 3px;
+    padding: 5px;
+    width: 100%;
+}
+
+.body_border{
+    border: 3px solid black;
+}
